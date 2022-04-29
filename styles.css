@@ -1,0 +1,81 @@
+body {
+    background-color: #202324;
+    color: rgba(255, 255, 255, 0.848);
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+.report>*:not(:first-child) {
+    display: block;
+    margin: auto;
+    border: 2px solid dodgerblue;
+    border-radius: 4px;
+    resize: none;
+}
+
+
+#report_image {
+    margin: auto;
+    display: block;
+    width: 20%;
+    height: 20%;
+}
+#report_input {
+    width: 80%;
+    height: 280px;
+    text-align: start;
+    vertical-align: auto;
+    background-color: #202324b8;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: medium;
+    margin-bottom: 1%;
+}
+
+textarea:focus, textarea.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+li.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.about {
+    margin: 1% 5% 3% 5%;
+}
+
+.videos {
+    margin-left: 2%;
+}
+.videos iframe {
+    width: 49%;
+    height: 22vw;
+}
